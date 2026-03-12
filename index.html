@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- tailwind css cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- font awesome cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google font cdn  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <title>Penguine Fashion</title>
+</head>
+
+<body>
+  <!-- Header Section  -->
+  <header class="bg-[#FFFBF0] mb-5">
+    <nav class="flex justify-between items-center container mx-auto px-5 py-2 mb-10 md:mb-0 ">
+      <div class="logo">
+        <img src="./icons/logo.png" alt="" class="w-[290px] ">
+      </div>
+      <ul class="gap-5 font-semibold text-[#3C3C3C] cursor-pointer hidden md:flex ">
+        <li class="hover:text-[#85A019]">Home</li>
+        <li class="hover:text-[#85A019]">Product</li>
+        <li class="hover:text-[#85A019]">About us</li>
+        <li class="hover:text-[#85A019]">Contact us</li>
+      </ul>
+      <div class="mobile-menu block md:hidden">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Hero Section  -->
+    <section class="container mx-auto px-5 flex justify-between items-center flex-col md:flex-row ">
+      <div class="basis-[60%] ">
+        <h2 class="lg:text-[80px] md:text-[50px] text-[40px] text-[#363958] uppercase font-bold"><span
+            class="text-[#FABE4C]">Be the Penguins</span>
+          of Winter</h2>
+        <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing
+          and typesetting industry.</p>
+        <button
+          class="w-[120px] h-[45px] md:h-[60px] md:w-[170px] mt-5 bg-[#85A019] text-white rounded-2xl
+          cursor-pointer transition duration-500 hover:border-2 hover:border-b-lime-700 hover:border-solid hover:bg-white hover:text-[#363958]">
+          <i class="fa-solid fa-cart-shopping mr-2 "></i>
+          BUY NOW</button>
+      </div>
+      <div class="basis-[40%] mb-16">
+        <img src="./images/model.png" alt="" class="w-[440px]">
+      </div>
+
+    </section>
+  </header>
+
+  <!-- women jacket -->
+  <section>
+    <h1 class="md:text-[48px] md:text-left text-[36px] text-center text-[#363958] p-5 font-bold max-w-[1280px]">WOMAN JACKET</h1>
+    <div class="container px-5 mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 mb-[100px]">
+
+      <div class="card1 shadow-md p-5 rounded-2xl">
+        <img src="./images/jacket-1.png" alt="" class="bg-[#F1F1F1] p-5 rounded-2xl">
+        <h4 class="mt-5 font-bold text-[24px] text-[#363958]">Yellow Coat Jacket</h4>
+        <p class="text-[#3E3E3E] ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eos!</p>
+        <div class="price mt-5 flex justify-between items-center gap-[25px]">
+          <span class="md:text-[30px] text-[36px] font-bold
+         text-[#FABE4C]">$234</span>
+          <button
+            class="w-[170px] h-[60px] mt-5 bg-[#85A019] text-white rounded-2xl
+                  cursor-pointer transition duration-500 hover:border-2 hover:border-b-lime-700 hover:border-solid hover:bg-white hover:text-[#363958]">
+            <i class="fa-solid fa-cart-shopping mr-2 "></i>
+            BUY NOW</button>
+        </div>
+      </div>
+      <div class="card2 shadow-md p-5 rounded-2xl">
+        <img src="./images/jacket-2.png" alt="" class="bg-[#F1F1F1] p-5 rounded-2xl">
+        <h4 class="mt-5 font-bold text-[24px] text-[#363958]">Ladies Jacket</h4>
+        <p class="text-[#3E3E3E] ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eos!</p>
+        <div class="price mt-5 flex justify-between items-center gap-[25px]">
+          <span class="md:text-[30px] text-[36px] font-bold
+         text-[#FABE4C]">$234</span>
+          <button
+            class="w-[170px] h-[60px]  mt-5 bg-[#85A019] text-white rounded-2xl
+                  cursor-pointer transition duration-500 hover:border-2 hover:border-b-lime-700 hover:border-solid hover:bg-white hover:text-[#363958]">
+            <i class="fa-solid fa-cart-shopping mr-2 "></i>
+            BUY NOW</button>
+        </div>
+      </div>
+      <div class="card3 shadow-md p-5 rounded-2xl">
+        <img src="./images/jacket-3.png" alt="" class="bg-[#F1F1F1] p-5 rounded-2xl">
+        <h4 class="mt-5 font-bold text-[24px] text-[#363958]">Woman Leather Jacket</h4>
+        <p class="text-[#3E3E3E] ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eos!</p>
+        <div class="price mt-5 flex justify-between items-center gap-[25px]">
+          <span class="md:text-[30px] text-[36px] font-bold
+         text-[#FABE4C]">$234</span>
+          <button
+            class="w-[170px] h-[60px]  mt-5 bg-[#85A019] text-white rounded-2xl
+                  cursor-pointer transition duration-500 hover:border-2 hover:border-b-lime-700 hover:border-solid hover:bg-white hover:text-[#363958]">
+            <i class="fa-solid fa-cart-shopping mr-2 "></i>
+            BUY NOW</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Men Jacket  -->
+  <section>
+    <h1 class="md:text-[48px] md:text-left text-[36px] text-center text-[#363958] p-5 font-bold max-w-[1280px]">MAN JACKET</h1>
+    <div class="container px-5 mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+
+      <div class="card1 shadow-md p-5 rounded-2xl">
+        <img src="./images/jacket-4.png" alt="" class="bg-[#F1F1F1] p-5 rounded-2xl">
+        <h4 class="mt-5 font-bold text-[24px] text-[#363958]">Snowboard Jacket Mens</h4>
+        <p class="text-[#3E3E3E] ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eos!</p>
+        <div class="price mt-5 flex justify-between items-center gap-[25px]">
+          <span class="md:text-[30px] text-[36px] font-bold
+           text-[#FABE4C]">$234</span>
+          <button
+            class="w-[170px] h-[60px] mt-5 bg-[#85A019] text-white rounded-2xl
+                    cursor-pointer transition duration-500 hover:border-2 hover:border-b-lime-700 hover:border-solid hover:bg-white hover:text-[#363958]">
+            <i class="fa-solid fa-cart-shopping mr-2 "></i>
+            BUY NOW</button>
+        </div>
+      </div>
+      <div class="card2 shadow-md p-5 rounded-2xl">
+        <img src="./images/jacket-5.png" alt="" class="bg-[#F1F1F1] p-5 rounded-2xl">
+        <h4 class="mt-5 font-bold text-[24px] text-[#363958]">Man Leather Jackets</h4>
+        <p class="text-[#3E3E3E] ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eos!</p>
+        <div class="price mt-5 flex justify-between items-center gap-[25px]">
+          <span class="md:text-[30px] text-[36px] font-bold
+           text-[#FABE4C]">$234</span>
+          <button
+            class="w-[170px] h-[60px]  mt-5 bg-[#85A019] text-white rounded-2xl
+                    cursor-pointer transition duration-500 hover:border-2 hover:border-b-lime-700 hover:border-solid hover:bg-white hover:text-[#363958]">
+            <i class="fa-solid fa-cart-shopping mr-2 "></i>
+            BUY NOW</button>
+        </div>
+      </div>
+      <div class="card3 shadow-md p-5 rounded-2xl">
+        <img src="./images/jacket-6.png" alt="" class="bg-[#F1F1F1] p-5 rounded-2xl">
+        <h4 class="mt-5 font-bold text-[24px] text-[#363958]">Man Casual Jackets</h4>
+        <p class="text-[#3E3E3E] ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, eos!</p>
+        <div class="price mt-5 flex justify-between items-center gap-[25px]">
+          <span class="md:text-[30px] text-[36px] font-bold
+           text-[#FABE4C]">$234</span>
+          <button
+            class="w-[170px] h-[60px]  mt-5 bg-[#85A019] text-white rounded-2xl
+                    cursor-pointer transition duration-500 hover:border-2 hover:border-b-lime-700 hover:border-solid hover:bg-white hover:text-[#363958]">
+            <i class="fa-solid fa-cart-shopping mr-2 "></i>
+            BUY NOW</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Facilities section  -->
+  <section>
+    <div class="container px-5 mx-auto flex justify-between gap-10 items-center my-40 flex-col md:flex-row">
+      <div class="left order-2 md:order-1 flex flex-col space-y-10">
+        <div class="flex flex-col text-center  md:flex-row md:text-left gap-12 shadow-md">
+          <img src="/icons/house.png" alt="" class="w-[78px] mx-auto md:mx-0">
+          <div class="info">
+            <h4 class="text-[24px] font-bold text-[#363958]">Find the Perfect Fit</h4>
+            <p class="text-[#3E3E3E]">Everybody is different, which is why we
+              offer styles for every body.</p>
+          </div>
+        </div>
+        <div class="flex flex-col text-center  md:flex-row md:text-left gap-12 shadow-md">
+          <img src="/icons/box.png" alt="" class="w-[78px] mx-auto md:mx-0">
+          <div class="info">
+            <h4 class="text-[24px] font-bold text-[#363958]">Free Exchanges</h4>
+            <p class="text-[#3E3E3E]">One of the many reasons you can shop
+              with peace of mind..</p>
+          </div>
+        </div>
+        <div class="flex flex-col text-center  md:flex-row md:text-left gap-12 shadow-md">
+          <img src="/icons/question.png" alt="" class="w-[78px] mx-auto md:mx-0">
+          <div class="info">
+            <h4 class="text-[24px] font-bold text-[#363958]">Contact Our Seller</h4>
+            <p class="text-[#3E3E3E]">They are here to help you. That's quite
+              literally what we pay them for..</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="right order-1 md:order-2">
+        <img src="./images/shopping.png" alt="" class="w-[600px] ">
+      </div>
+
+    </div>
+  </section>
+
+</body>
+
+</html>
